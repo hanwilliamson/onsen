@@ -5,9 +5,10 @@ html {
     }
 
 body {
-    padding-top: 0px;
+    padding: 0px;
     margin: 0;
 }
+/* { outline: #CCC solid 1px; }
 
 /* The side navigation menu */
 .sidenav {
@@ -60,16 +61,36 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover; 
-}
-
-
-#backgroundImage {
-    width: 100%;
     margin: 0px;
     padding: 0px;
 }
 
-.backgroundColour {
-    background-color: darkred;
+
+#logoImage {
+    margin: 0px;
+    padding: 0px;
+}
+
+#japaneseName {
     
 }
+
+.backgroundColour {
+    background-color: #4F1D1C;
+    margin: -20px 0px -20px 0px;
+    color: white;
+}
+
+#aboutSections{
+    background-color: red;
+    padding: 15px;
+    
+}
+
+.white {
+    background-color: white;
+    color: black;
+    margin: 10px;
+    min-height: 200px;
+}
+
