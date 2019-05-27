@@ -67,14 +67,15 @@ body {
 
 .homeHeader {
     background-image: url(img/spirited-away-bath-house.jpg);
-    width: 100vw;
-    background-position: center;
+    /*width: 100vw;
+    background-position: center;*/
     background-repeat:no-repeat;
     background-size: cover; 
     margin: 0px;
     padding-top: 3em;
     padding-bottom: 15em;
-    /*position: absolute;*/
+    position: fixed ;
+    
 }
 
 .header {
@@ -86,7 +87,7 @@ body {
     margin: 0px;
     padding-top: 3em;
     padding-bottom: 3em;
-    position: sticky ;
+    position: fixed ;
 }
 
 #menuBars {
