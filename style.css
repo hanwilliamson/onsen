@@ -1,0 +1,139 @@
+@font-face {
+  font-family: ghibli;
+  src: url(fonts/ghibli.ttf);
+}
+
+@font-face {
+  font-family: ghibli_bold;
+  src: url(fonts/ghibli_bold.ttf);
+  font-weight: bold;
+}
+
+html {
+    scroll-behavior: smooth;
+    }
+
+body {
+    padding: 0px;
+    margin: 0;
+}
+/* { outline: #CCC solid 1px; }
+
+/* The side navigation menu */
+.sidenav {
+    height: 100%; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 0;
+    left: 0;
+    background-color: white; /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 60px; /* Place content 60px from the top */
+    padding-right: 0px;
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+    font-family: ghibli;
+}
+
+/* The navigation menu links */
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+#main {
+    transition: margin-left .5s;
+    padding: 0px;
+    margin: 0px;
+}
+
+.homeHeader {
+    background-image: url(img/spirited-away-bath-house.jpg);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    margin: 0px;
+    padding-top: 3em;
+    padding-bottom: auto;
+    position: sticky;
+}
+
+.header {
+    background-image: url(img/spirited-away-bath-house.jpg);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    margin: 0px;
+    padding-top: 3em;
+    padding-bottom: auto;
+    position: sticky ;
+}
+
+#menuBars {
+    color: white;
+    font-size: 5vw;
+    position: relative;
+    margin-left: 0.5em;
+}
+
+#menuBars:hover{
+    color: gray;
+}
+
+#logoImage {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: -10px;
+    width: 15vw;
+}
+
+#japaneseName {
+    color: white;
+    font-size: 22vw;
+    text-align: center;
+    padding-top: 0px;
+}
+
+#siteName {
+    color: white;
+    font-size: 5vw;
+    text-align: center;
+    padding-top: 0px;
+    font-family: ghibli;
+}
+
+.backgroundColour {
+    background-color: #4F1D1C;
+    margin: -20px 0px -20px 0px;
+    padding-top: 50px;
+    color: white;
+    
+}
+
+.white {
+    background-color: white;
+    color: black;
+    margin: 10px;
+    min-height: 200px;
+}
