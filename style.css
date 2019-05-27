@@ -16,6 +16,7 @@ html {
 body {
     padding: 0px;
     margin: 0;
+    
 }
 /* { outline: #CCC solid 1px; }
 
@@ -65,19 +66,20 @@ body {
     margin: 0px;
 }
 
-.homeHeader {
+#background {
     background-image: url(img/spirited-away-bath-house.jpg);
     width: 100vw;
+    height: 100%;
     background-position: center;
-    background-repeat:no-repeat;
+    background-repeat: no-repeat;
     background-size: cover; 
     margin: 0px;
     padding-top: 3em;
     padding-bottom: 15em;
     position: fixed;
-
-
+    z-index: -1;
 }
+
 
 .header {
     background-image: url(img/spirited-away-bath-house.jpg);
@@ -91,11 +93,19 @@ body {
     position: fixed ;
 }
 
+#mainText {
+    z-index: 1;
+    height: 100%;
+    
+}
+
 #menuBars {
     color: white;
     font-size: 5vw;
-    position: relative;
+    position: fixed;
     margin-left: 0.5em;
+    margin-top: 0.5em;
+    z-index: 2;
 }
 
 #menuBars:hover{
@@ -125,12 +135,13 @@ body {
     font-family: ghibli;
 }
 
-.backgroundColour {
+
+.aboutContent {
     background-color: #4F1D1C;
     opacity: 0.7;
-    margin: -20px 0px -20px 0px;
+    margin: 0px;
     padding-top: 50px;
-    color: white;
+    color: white; 
     
 }
 
@@ -145,4 +156,11 @@ body {
     font-family: ghibli;
     text-align: center;
     font-size: 5vw;
+}
+
+@media only screen and (max-width: 600px) {
+    #mainText {
+        padding-top: 40%;
+    
+}
 }
