@@ -46,14 +46,14 @@
                 
                 <h1 id="heading">BOOKING FORM</h1>
                 
-                <div class="container">
+                <div class="container" id="formContainer">
                     <form action="action_page.php">
 
                         <label for="fname">First Name</label>
-                        <input type="text" id="fname" name="firstname" placeholder="Your name">
+                        <input type="text" id="fname" name="firstname" placeholder="Your First Name">
 
                         <label for="lname">Last Name</label>
-                        <input type="text" id="lname" name="lastname" placeholder="Your last name">
+                        <input type="text" id="lname" name="lastname" placeholder="Your Last Name">
                         
                         <label for="email">Email Address</label>
                         <input type="text" id="lname" name="lastname" placeholder=" Your Email">
@@ -81,15 +81,22 @@
                         
                         <label for="package">Length of Stay</label>
                         <select id="package" name="package">
-                            <option value="Standard">Standard</option>
-                            <option value="Premium">Premium</option>
-                            <option value="Deluxe">Deluxe</option>
+                            <option value="1">1 Night</option>
+                            <option value="2">2 Nights</option>
+                            <option value="3">3 Nights</option>
+                            <option value="4">4 Nights</option>
+                            <option value="5">5 Nights</option>
+                            <option value="6">6 Nights</option>
+                            <option value="7">7 Nights</option>
+                            <option value="8">8 Nights</option>
+                            <option value="9">9 Nights</option>
+                            <option value="10">10+ Nights</option>
                         </select>
                         
                         
                         <div class="row">
                               <div class="col-75">
-                                <div class="container">
+                                <div class="container" id="bookingContainer">
                                   <form action="/action_page.php">
 
                                     <div class="row">
@@ -130,11 +137,11 @@
 
                                     </div>
                                     
-                                    <input type="submit" value="Continue to checkout" class="btn">
+                                      <button type="button" value="Continue to checkout" class="btn" onclick="location.href='bookingform_return.html'">Confirm Booking</button>
                                   </form>
                                 </div>
                               </div>
-
+                            
                               <div class="col-25">
                                 <div class="container">
                                   <h4>Cart 
