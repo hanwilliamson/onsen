@@ -290,7 +290,7 @@ span.price {
 
 #map{
     text-align: center;
-    margin-bottom: 10px;
+    padding-bottom: 10px;
     
 }
 
@@ -300,6 +300,7 @@ span.price {
 
 #galleryContainer {
   position: relative;
+    margin-bottom: 10px;
 }
 
 /* Hide the images by default */
