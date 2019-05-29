@@ -403,6 +403,13 @@ span.price {
   .col-25 {
     margin-bottom: 20px;
   }
+    .productRow {
+        display: none;
+    }
+    
+    #galleryRow {
+        display: none;
+    }
 }
 
 @media only screen and (max-width: 600px) {
@@ -414,4 +421,11 @@ span.price {
     font-size: 8vw;
 
 }
+    .productRow {
+        display: none;
+    }
+    
+    #galleryRow {
+        display: none;
+    }
 }
